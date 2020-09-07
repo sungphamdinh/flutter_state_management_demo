@@ -12,7 +12,7 @@ https://github.com/sungphamdinh/flutter_state_management_demo/blob/master/flutte
 IDE: Android studio or Visual Studio Code https://flutter.dev/docs/get-started/editor <br>
 Flutter and Dart SDK: https://flutter.dev/docs/get-started/install/macos
 
-2. Clone source
+2. Clone source <br>
 git clone https://github.com/sungphamdinh/flutter_state_management_demo.git
 
 3. Run "flutter pub get" to download all dependances.
