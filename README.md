@@ -1,16 +1,33 @@
-# todo_provider_demo
-
-A new Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a demo for state management in flutter.
+We have 2 parts: the first one is about using Provider, the second part uses BLoC pattern.
 
-A few resources to get you started if this is your first Flutter project:
+## How to run
+1. Install Environment
+IDE: Android studio or Visual Studio Code https://flutter.dev/docs/get-started/editor
+Flutter and Dart SDK: https://flutter.dev/docs/get-started/install/macos
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+2. Clone source
+git clone https://github.com/sungphamdinh/flutter_state_management_demo.git
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Run "flutter pub get" to download all dependances.
+
+4. Run the project.
+
+# Folder structure
+
+lib/
+  bloc_demo/ => for BloC pattern demo
+       blocs/ => define bloc objects
+       screens/ => UI code for using BLoC
+  data/ => data layer, actual implement of CRUD of data
+  models/ => define data models
+  provider_demo/ => for Provider demo
+       providers/ => define the provider of todo list
+       screens/ => UI code for using Provider
+  repositories/ => abstract class to provide interface for data layer
+  
+
+
