@@ -4,7 +4,8 @@
 This project is a demo for state management in flutter. <br>
 We have 2 parts: the first one is about using Provider, the second part uses BLoC pattern.
 
-## Presentation slide: https://github.com/sungphamdinh/flutter_state_management_demo/blob/master/flutter_architecture_v1.key
+## Presentation slide
+https://github.com/sungphamdinh/flutter_state_management_demo/blob/master/flutter_architecture_v1.key
 
 ## How to run
 1. Install Environment
