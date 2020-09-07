@@ -25,7 +25,7 @@ lib/ <br>
   bloc_demo/ => for BloC pattern demo <br>
       - blocs/ => define bloc objects <br>
       - screens/ => UI code for using BLoC <br>
-  data/ => data layer, actual implement of CRUD of data <br>
+  data/ => data layer, actual implement the CRUD of data <br>
   models/ => define data models <br>
   provider_demo/ => for Provider demo <br>
        - providers/ => define the provider of todo list <br>
