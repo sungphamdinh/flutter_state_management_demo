@@ -9,7 +9,7 @@ https://github.com/sungphamdinh/flutter_state_management_demo/blob/master/flutte
 
 ## How to run
 1. Install Environment
-IDE: Android studio or Visual Studio Code https://flutter.dev/docs/get-started/editor
+IDE: Android studio or Visual Studio Code https://flutter.dev/docs/get-started/editor <br>
 Flutter and Dart SDK: https://flutter.dev/docs/get-started/install/macos
 
 2. Clone source
