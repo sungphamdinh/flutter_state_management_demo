@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:todo_provider_demo/provider_demo/providers/todo_list.dart';
 
+import '../../bloc_demo/screens/add_todo_screen.dart';
+
 class TodoItem extends StatelessWidget {
   final String title;
   final String content;
@@ -30,14 +32,29 @@ class TodoItem extends StatelessWidget {
                 )
               ],
             ),
-            IconButton(
-              icon: Icon(
-                Icons.delete,
-                color: Colors.red,
-              ),
-              onPressed: () {
-                Provider.of<TodoList>(context, listen: false).deleteTodoId(id);
-              },
+            Row(
+              children: [
+                IconButton(
+                  icon: Icon(
+                    Icons.edit,
+                    color: Colors.green,
+                  ),
+                  onPressed: () {
+                    Navigator.of(context)
+                        .pushNamed(AddTodoScreen.routeName, arguments: id);
+                  },
+                ),
+                IconButton(
+                  icon: Icon(
+                    Icons.delete,
+                    color: Colors.red,
+                  ),
+                  onPressed: () {
+                    Provider.of<TodoList>(context, listen: false)
+                        .deleteTodoId(id);
+                  },
+                )
+              ],
             )
           ],
         ));

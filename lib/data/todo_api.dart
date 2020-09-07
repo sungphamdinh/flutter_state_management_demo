@@ -21,4 +21,9 @@ class TodoAPI extends TodoRepository {
     await Future.delayed(Duration(seconds: 2), () {});
     return todoEntities;
   }
+
+  @override
+  Future<void> updateTodo(TodoEntity entity) async {
+    await Future.delayed(Duration(seconds: 2), () {});
+  }
 }
