@@ -5,7 +5,7 @@ import 'package:todo_provider_demo/repositories/todo_repository.dart';
 import '../../models/todo_entity.dart';
 
 class TodoList with ChangeNotifier {
-  final TodoRepository todoRepository;
+  final ITodoRepository todoRepository;
   TodoList({this.todoRepository});
 
   List<TodoEntity> _todoEntities = [];

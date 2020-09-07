@@ -5,7 +5,7 @@ import 'package:todo_provider_demo/models/todo_entity.dart';
 import 'package:todo_provider_demo/repositories/todo_repository.dart';
 
 class TodosBloc extends Bloc<TodosEvent, TodosState> {
-  final TodoRepository repository;
+  final ITodoRepository repository;
 
   TodosBloc({this.repository}) : super(TodosLoadInProgress());
 

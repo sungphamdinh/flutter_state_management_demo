@@ -1,7 +1,7 @@
 import 'package:todo_provider_demo/models/todo_entity.dart';
 import 'package:todo_provider_demo/repositories/todo_repository.dart';
 
-class TodoAPI extends TodoRepository {
+class TodoAPI extends ITodoRepository {
   List<TodoEntity> todoEntities = [];
 
   @override

@@ -3,7 +3,7 @@ import 'package:todo_provider_demo/models/todo_entity.dart';
 import '../models/todo_entity.dart';
 import '../repositories/todo_repository.dart';
 
-class TodoLocalDatabase extends TodoRepository {
+class TodoLocalDatabase extends ITodoRepository {
   @override
   Future<void> addTodo(TodoEntity entity) {}
 
