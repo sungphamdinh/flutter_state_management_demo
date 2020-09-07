@@ -18,8 +18,8 @@ git clone https://github.com/sungphamdinh/flutter_state_management_demo.git
 
 # Folder structure
 
-lib/
-  bloc_demo/ => for BloC pattern demo
+lib/ <br>
+  bloc_demo/ => for BloC pattern demo <br>
        blocs/ => define bloc objects
        screens/ => UI code for using BLoC
   data/ => data layer, actual implement of CRUD of data
