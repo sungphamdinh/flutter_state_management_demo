@@ -20,13 +20,13 @@ git clone https://github.com/sungphamdinh/flutter_state_management_demo.git
 
 lib/ <br>
   bloc_demo/ => for BloC pattern demo <br>
-       blocs/ => define bloc objects <br>
-       screens/ => UI code for using BLoC <br>
+      - blocs/ => define bloc objects <br>
+      - screens/ => UI code for using BLoC <br>
   data/ => data layer, actual implement of CRUD of data <br>
   models/ => define data models <br>
   provider_demo/ => for Provider demo <br>
-       providers/ => define the provider of todo list <br>
-       screens/ => UI code for using Provider <br>
+       - providers/ => define the provider of todo list <br>
+       - screens/ => UI code for using Provider <br>
   repositories/ => abstract class to provide interface for data layer <br>
   
 
